@@ -1,1 +1,11 @@
+.rodape { // Bloco
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
 
+    &__texto { // Elemento
+        margin: 0;
+    }
+}

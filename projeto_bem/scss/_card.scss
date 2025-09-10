@@ -1,1 +1,50 @@
+.card { // Bloco
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
 
+    &__titulo { // Elemento
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    &__imagem { // Elemento
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    &__texto { // Elemento
+        line-height: 1.6;
+    }
+
+    &__botao { // Elemento
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background-color: #3498db;
+        color: #fff;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #2980b9;
+        }
+
+        &--principal { // Modificador
+            background-color: #e74c3c;
+            
+            &:hover {
+                background-color: #c0392b;
+            }
+        }
+    }
+    
+    &--destaque { // Modificador
+        border: 2px solid #e74c3c;
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+}

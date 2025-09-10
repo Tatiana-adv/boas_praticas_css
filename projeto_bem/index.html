@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologia BEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Meu Blog</h1>
+        <nav class="cabecalho__navegacao">
+            <ul class="cabecalho__lista-menu">
+                <li class="cabecalho__item-menu"><a href="#" class="cabecalho__link">Início</a></li>
+                <li class="cabecalho__item-menu"><a href="#" class="cabecalho__link">Sobre</a></li>
+                <li class="cabecalho__item-menu"><a href="#" class="cabecalho__link">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section class="card">
+            <h2 class="card__titulo">Post 1</h2>
+            <img class="card__imagem" src="https://via.placeholder.com/600x400" alt="Imagem do post 1">
+            <p class="card__texto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, vitae.
+            </p>
+            <a href="#" class="card__botao card__botao--principal">Leia mais</a>
+        </section>
+
+        <section class="card card--destaque">
+            <h2 class="card__titulo">Post 2</h2>
+            <img class="card__imagem" src="https://via.placeholder.com/600x400" alt="Imagem do post 2">
+            <p class="card__texto">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, natus.
+            </p>
+            <a href="#" class="card__botao">Leia mais</a>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p class="rodape__texto">&copy; 2025. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

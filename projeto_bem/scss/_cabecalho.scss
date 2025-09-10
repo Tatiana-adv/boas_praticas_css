@@ -1,1 +1,32 @@
+.cabecalho { // Bloco
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
 
+    &__titulo { // Elemento
+        font-size: 2rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    &__navegacao { // Elemento
+        margin-top: 1rem;
+    }
+
+    &__lista-menu { // Elemento
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    &__link { // Elemento
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #ddd;
+        }
+    }
+}
